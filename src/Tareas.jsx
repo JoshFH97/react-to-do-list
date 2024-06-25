@@ -18,7 +18,7 @@ const Tareas = () => {
       }
     }
     fetchData(); // Llamar a fetchData dentro de useEffect
-  }, []); // El array vacío asegura que el efecto se ejecute solo una vez (cuando el componente se monta)
+  }, [tasks]); // Cada vez que cambien va  ejecutar el useefect
 
   // DELETE request
   const deletePost = async (postId) => {
