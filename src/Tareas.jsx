@@ -42,6 +42,7 @@ const Tareas = () => {
   return (
     <>
       <nav>
+        <div className='tareas'>
         <ul>
           {tasks.map((task, index) => (
             <li key={index}>
@@ -50,6 +51,7 @@ const Tareas = () => {
             </li>
           ))}
         </ul>
+        </div>
       </nav>
     </>
   );

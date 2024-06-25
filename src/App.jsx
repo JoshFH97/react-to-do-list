@@ -5,11 +5,12 @@ import Agregar from './Agregar'
 function App() {
 
   return (
+    <div className='body'>
     <>
     <Agregar/>
     <Tareas/>
-      
     </>
+    </div>  
   )
 }
 

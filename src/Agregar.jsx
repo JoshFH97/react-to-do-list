@@ -29,8 +29,10 @@ const Agregar = ({lista})=>{
         <>
          <>
              <nav>
-                 <input id="input" type="text" onChange={(e)=>setTitulo(e.target.value)} />
-                 <button onClick={createPost}>Agregar</button>
+                <div className="agregar">
+                 <input className="tarea" id="input" type="text" onChange={(e)=>setTitulo(e.target.value)} />
+                 <button className="btnAgregar" onClick={createPost}>Agregar</button>
+                </div>
              </nav>
          </>                
         </>
